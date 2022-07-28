@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(./fonts/Oswald-Regular_0.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PTF5';
+    src: url(./fonts/PTF55F.ttf) format('truetype');
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #0079C1;
+    padding: 15px;
+}
+
+.size-navbar{
+    max-width: 1100px;
+    margin: auto;
+    transition: 500ms;
+    overflow:auto;
+}
+
+#logo{
+    padding-top: 10px;
+    display:inline-block;
+}
+
+.topnav{
+    margin-top: 5px;
+    float: right;
+    overflow: hidden;
+}
+
+.topnav a{
+    margin-left: 20px;
+    float:left;
+    display: block;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    width: 100%;
+    position: relative;
+    max-width: 850px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.container-title{
+    font-family: 'Oswald';
+    color: #314163;
+    width: 450px;
+}
+.container-title a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #314163;
+}
+.container-title h1{
+    font-size: 50px;
+    margin: 50px 0 35px 0;
+}
+.container-title h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}   
+.container-title h3{ 
+    font-size: 22px;
+    margin: 30px 0 0 0;
+}
+.container-title p{
+    font-family: 'PTF5'; 
+    font-size: 19px;
+    margin: 10px 0 0 0;
+}
+.container-card {
+    height: 1590px;
+    width: 250px;
+    background-color: #314168;
+    margin-top: 90px;
+}
+#imagem{
+    position: absolute;
+    /* left: 500px; */
+    left: 60%;
+    margin-top: 450px;
+    
+}
+.container-form{
+    width: 450px;
+    height: 787px;
+    background-color: #e3f4fe;
+    margin-top: 30px;
+    padding: 15px;
+}
+.container-form form{
+    width: 445px;
+    height: 712px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+.container-form form label{
+    margin-top: 20px;
+    font-family: 'Oswald';
+    font-size: 26px;
+    color: #314163;
+}
