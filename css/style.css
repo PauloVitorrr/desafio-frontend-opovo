@@ -53,7 +53,7 @@ justify-content: space-between;
 margin: 0 auto;
 }
 .container-title{
-font-family: 'Oswald';
+font-family: 'Oswald',sans-serif;
 color: #314163;
 width: 450px;
 margin-top: 50px;
@@ -76,7 +76,7 @@ font-size: 22px;
 margin: 30px 0 0 0;
 }
 .container-title p{
-font-family: 'PTF5'; 
+font-family: 'PTF5', sans-serif; 
 font-size: 19px;
 margin: 10px 0 0 0;
 }
@@ -112,7 +112,7 @@ margin: 20px 0 0;
 margin-left: 15px;
 }
 .container-form h4{
-font-family: "Oswald";
+font-family: "Oswald", sans-serif;
 font-size: 22px;
 color: #314163;
 margin: 20px 0 0;
