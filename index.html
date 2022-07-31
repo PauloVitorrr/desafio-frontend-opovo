@@ -12,26 +12,27 @@
 <body>
     <header>
         <nav class="size">
-            <div id="logo">
-                <img src="img/logo.PNG" alt="Logo" width="150px" height="25px">
+            <div class="row">
+                <div id="logo">
+                    <img src="img/logo.PNG" alt="Logo" width="150px" height="25px">
+                </div>
+                <button onclick="dropdown()" class="menu">&#9776;</button>
             </div>
             <div class="topnav" id="sections">
-                <div>
-                    <a href="#">Sobre</a>
-                    <a href="#">Vídeo</a>
-                    <a href="#">Propósito</a>
-                    <a href="#">Diversidade</a>
-                    <a href="#">Valores</a>
-                    <a href="#">Áreas de Atuação</a>
-                    <a href="#">Depoimentos</a>
-                    <a href="#">Vagas</a>
-                </div>
+                <a href="#">Sobre</a>
+                <a href="#">Vídeo</a>
+                <a href="#">Propósito</a>
+                <a href="#">Diversidade</a>
+                <a href="#">Valores</a>
+                <a href="#">Áreas de Atuação</a>
+                <a href="#">Depoimentos</a>
+                <a href="#">Vagas</a>
             </div>
         </nav>
     </header>
 
     <div class="main">
-        <div>
+        <div style="width: 100%;max-width: 600px;">
             <div class="container-title">
                 <a href="#">← Voltar</a>
                 <h1>VAGAS</h1>
@@ -123,13 +124,17 @@
             <img src="./img/vagas-01-01.png" id="imagem" alt="Pessoas" width="390px" height="390px">
         </div>
     </div>
-
     <footer>
-        <div class="size">
+        <div class="container-footer">
             <img src="img/logo.PNG" alt="Logo" width="150px" height="25px">
             <p>Copyright&#169; 1997-2016</p>
         </div>
     </footer>
+    <script>
+        const dropdown = () => {
+            document.querySelector('.topnav').classList.toggle('dropdown')
+        }
+    </script>
 </body>
 
 </html>
